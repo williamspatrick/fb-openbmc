@@ -2,7 +2,7 @@ version: 2.1
 jobs:
     lint:
         docker:
-            - image: ubuntu:focal
+            - image: ubuntu:hirsute
         resource_class: small
         steps:
             - run:
